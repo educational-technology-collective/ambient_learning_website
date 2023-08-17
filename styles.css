@@ -64,7 +64,7 @@ header nav {
     width: 40%;
 }
 
-a {
+a, a:link, a:visited {
     text-decoration: none;
     padding: 0.2rem;
     color: var(--);
@@ -125,10 +125,6 @@ section {
     text-indent: 0;
     line-height: 2.5rem;
     font-size: 1.6rem;
-}
-
-#scribe-title {
-
 }
 
 #scribe-container {
