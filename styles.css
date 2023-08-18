@@ -1,8 +1,4 @@
 :root {
-    --pink: #c74028;
-    --brown: #8b4513;
-    --darkgreen: #006400;
-    --lightgreen: #46a346;
     --white: rgb(247, 241, 228);
     --anchor-color: rgb(90, 162, 209);
     --light-font: #f5f5f5;
@@ -48,7 +44,7 @@ header {
 a {
     text-align: center;
     font-size: 1.4rem;
-    color: var(--anchor-color)
+    color: var(--anchor-color);
 }
 
 header img {
@@ -64,11 +60,11 @@ header nav {
     width: 40%;
 }
 
-a, a:link, a:visited {
+/* a, a:link, a:visited {
     text-decoration: none;
     padding: 0.2rem;
-    color: var(--);
-}
+    color: var(--anchor-color);
+} */
 
 a:hover {
     color: var(--pink);
@@ -95,7 +91,6 @@ section {
 }
 
 #getting-started {
-    /* background-color: var(--brown); */
     color: var(--dark-font);
     padding: 1rem;
     scroll-margin-top: calc(100px + 2rem);
