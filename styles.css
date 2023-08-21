@@ -78,12 +78,8 @@ a:hover {
     color: var(--pink);
 }
 
-main {
-    display: flex;
-    justify-content: center;
-}
 
-main div {
+main {
     background-color: var(--white);
     color: var(--dark-font);
     padding: 1rem;
