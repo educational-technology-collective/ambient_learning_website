@@ -1,5 +1,6 @@
 :root {
     --white: rgb(247, 241, 228);
+    --red: rgb(184, 34, 34);
     --anchor-color: rgb(90, 162, 209);
     --light-font: #f5f5f5;
     --dark-font: #333;
@@ -20,7 +21,7 @@
 
 }
 
-* {
+*:not(a) {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     color: var(--dark-font);
@@ -50,7 +51,6 @@ header div {
 a {
     text-align: center;
     font-size: 1.4rem;
-    color: var(--anchor-color);
 }
 
 header img {
@@ -75,7 +75,7 @@ header nav {
 } */
 
 a:hover {
-    color: var(--pink);
+    color: var(--red);
 }
 
 
@@ -157,6 +157,22 @@ section {
     background-color: rgba(114, 80, 17, 0.781);
 }
 
+#mac-login-warning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(184, 34, 34);
+} 
+
+#mac-login-warning b, #mac-login-warning p {
+    font-size: 2rem;
+}
+
+#mac-login-warning b {
+    color: red;
+}
+
 #privacy-policy h5 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -174,6 +190,10 @@ section {
 
 #privacy-policy li {
     margin: 1rem 0;
+}
+
+#privacy-policy a {
+    font-size: 2rem;
 }
 
 @media (pointer: fine) {
