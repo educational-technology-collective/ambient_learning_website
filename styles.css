@@ -125,11 +125,11 @@ section {
     padding: 2rem;
 }
 
-#getting-started p {
+/* #getting-started p {
     text-indent: 0;
     line-height: 2.5rem;
     font-size: 1.6rem;
-}
+} */
 
 #scribe-container {
     display: flex;
